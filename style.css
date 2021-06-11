@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position:fixed;
+    color: green;
+}
+header  h1 {
+    margin-left: 70px;
+    color: rgb(211, 209, 209);
+    max-width: 50%;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+header h1 span{
+    color: rgb(24, 248, 24);
+}
+
+header p a{
+    color: rgb(211, 209, 209);
+    margin-left: 90%;
+    text-align: right;
+}
+
+header p :hover{
+    color: rgb(24, 248, 24);
+}
+
+
+
+#container{
+    position: absolute;
+    width: 100%;
+    height: 77.5%;
+    top: 15%;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#side{
+    border: 1px solid gray;
+    width: 25%;
+    display:list-item;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 15px;
+    
+}
+
+.listItem{
+    background-color: rgba(110, 248, 110, 0.774);
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.listItem:hover{
+    background-color: rgb(24, 248, 24);
+}
+#content{
+    border: 1px solid gray;
+    width: 75%;
+    padding: 15px;
+
+}
+
+footer{
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    padding-top: 15px;
+    height: 45px;
+    position:fixed;
+    width: 100%;
+    left: 0;
+}
